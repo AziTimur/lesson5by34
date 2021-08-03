@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context="com.fragments5.FirstFragment">
+
+
+<EditText
+    android:id="@+id/edt_tv"
+    android:layout_width="300dp"
+    android:layout_gravity="center"
+    android:textColorHint="#A6A3A3"
+    android:hint="введите текст"
+    android:padding="10dp"
+    android:layout_marginTop="200dp"
+    android:layout_height="50dp"
+    android:background="#D5D5D5"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Далее"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+
+</LinearLayout>
